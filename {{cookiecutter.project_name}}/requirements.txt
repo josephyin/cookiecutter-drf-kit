@@ -1,0 +1,10 @@
+django
+djangorestframework
+djangorestframework-simplejwt
+drf-spectacular
+django-redis
+django-cors-headers
+django-environ
+django-ckeditor
+Pillow
+daphne
