@@ -21,6 +21,12 @@ from django.core.management.utils import get_random_secret_key
 get_random_secret_key()
 ```
 
+Migrate DB:
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
 ### Start Web Server:
 ```bash
 daphne -b 0.0.0.0 -p 8000 {{cookiecutter.app_name}}.asgi:application
